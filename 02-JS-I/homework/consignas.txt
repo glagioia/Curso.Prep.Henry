@@ -1,0 +1,21 @@
+Consignas:
+1-Variables: Una variable es una forma de almacenar un valor preestablecido, para utilizarlo mas tarde.
+2-Strings: Dentro de los distintos tipos de datos que se pueden utilizar en Javascript los Strings son bloques de texto que se definen porque estan entre comillas (simples o dobles)
+3-Funciones(argumentos return): Las funciones son tipos particulares de objetos que nos permiten agrupar codigos y luego ejecutarlos. Esto nos permite evitar escribir dos veces el
+ mismo codigo. La idea es que cuando ejecutamos una funcion, nos devuelva un resultado. Para definir que hace la funcion, le damos argumentos, y en base a esos argumentos nos devolvera un "return"
+ por ejemplo, si tenemos : function suma(a, b) [entre parentesis estan las variables] entonces podemos usas esas variables dentro de la funcion como argumentos
+ fuction suma(a, b){
+     var suma = a + b [este seria el argumento, que nos dice que sume las variables a y b]
+        return suma [aqui declaramos que esta funcion nos devolvera el resultado de la variable suma que establecimos en el renglon superior]
+ }
+4-Declaraciones "if": La utilizacion del "if" dentro de una funcion nos permite poner condiciones para luego arrojar un resultado.
+5- Los valores booleanos solo pueden tener dos valores posibles verdadero (true) o falso (false). Esto se puede utilizar dentro de una funcion de la siguiente manera: 
+Supingamos que queremos saber si un numero es mayor que otro para verificar si una persona puede manejar o no. La funcion "puede manejar" seria:
+ function PuedeManejar (edad){
+     if (edad > 18){
+         return true
+     }
+     return false
+ }
+
+
