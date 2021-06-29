@@ -1,0 +1,51 @@
+
+h1 {
+    color:rgb(24, 3, 44); 
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 400px; 
+    margin:auto;
+}
+
+#thirDiv {
+    align-items: center;
+    width: 500px;
+    height: 900px;   
+    background-color:brown;
+    padding: 50px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#spandId {
+    font-size: 18px;
+    margin: 50px;
+    background-color: gray;
+}
+
+#polloID {
+    height: 500px;
+}
+
+div{
+    align-items: center;
+}
