@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+h1 {
+    color: #FFDA00;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #FFDA00;
+    font size: 14 px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.titulo {
+    position: fixed;
+    left: 650px;
+    background-color: black;
+  
+}
+
+ .imagen {
+     width: 20%;
+     margin: 100px auto;
+     border: 3px solid #FFDA00;
+}
+
+ .secciones {
+    color: white;
+    text-align: left;
+    width: 960px;
+    margin: 20px auto;
+    border:3px solid #FFDA00;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+}
+
+li {   
+    list-style: none;
+}
+
+.ref2 {
+    display: block;
+}
+
+.pie {
+    color: white
+}
